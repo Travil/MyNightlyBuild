@@ -7,5 +7,6 @@ int main()
 	printf("input n=\n");
 	scanf("%d", &n);
 	printf("fib(%d=%d\n", n, fib(n));
+	printf("complete.");
 	return 0;
 }	
