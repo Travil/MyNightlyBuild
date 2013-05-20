@@ -4,9 +4,7 @@
 int main()
 {
 	int n = 0;
-	printf("input n=\n");
 	scanf("%d", &n);
-	printf("fib(%d=%d\n", n, fib(n));
-	printf("complete.");
+	printf("%d\n", fib(n));
 	return 0;
 }	
