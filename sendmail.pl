@@ -5,9 +5,9 @@ use strict;
 
   my $email = Email::Simple->create(
     header => [
-      To      => '"Xavier Q. Ample" <x.ample@example.com>',
-      From    => '"Bob Fishman" <orz@example.mil>',
-      Subject => "don't forget to *enjoy the sauce*",
+      To      => '"travisthu" <travisthu@163.com>',
+      From    => '"Travis Shaw" <travilshaw@gmail.com>',
+      Subject => "Email Testing",
     ],
     body => "This message is short, but at least it's cheap.\n",
   );
